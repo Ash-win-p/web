@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NumberSorting", "NumberSorting\", "{7AFA505C-0130-4DCC-B39B-EC40E1E873B7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54705"
+		Debug.AspNetCompiler.PhysicalPath = "NumberSorting\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54705\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54705"
+		Release.AspNetCompiler.PhysicalPath = "NumberSorting\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54705\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54705"
+		SlnRelativePath = "NumberSorting\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TemperatureConversion", "TemperatureConversion\", "{6A26C51F-F111-4EBD-9798-D2ECA0416700}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54712"
+		Debug.AspNetCompiler.PhysicalPath = "TemperatureConversion\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54712\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54712"
+		Release.AspNetCompiler.PhysicalPath = "TemperatureConversion\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54712\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54712"
+		SlnRelativePath = "TemperatureConversion\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteApplication", "WebSiteApplication\WebSiteApplication.csproj", "{21081E27-5A5F-42C8-85AE-96B412AB8960}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6A26C51F-F111-4EBD-9798-D2ECA0416700} = {6A26C51F-F111-4EBD-9798-D2ECA0416700}
+		{7AFA505C-0130-4DCC-B39B-EC40E1E873B7} = {7AFA505C-0130-4DCC-B39B-EC40E1E873B7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AFA505C-0130-4DCC-B39B-EC40E1E873B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFA505C-0130-4DCC-B39B-EC40E1E873B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFA505C-0130-4DCC-B39B-EC40E1E873B7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFA505C-0130-4DCC-B39B-EC40E1E873B7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6A26C51F-F111-4EBD-9798-D2ECA0416700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A26C51F-F111-4EBD-9798-D2ECA0416700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A26C51F-F111-4EBD-9798-D2ECA0416700}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A26C51F-F111-4EBD-9798-D2ECA0416700}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{21081E27-5A5F-42C8-85AE-96B412AB8960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21081E27-5A5F-42C8-85AE-96B412AB8960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21081E27-5A5F-42C8-85AE-96B412AB8960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21081E27-5A5F-42C8-85AE-96B412AB8960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7803BCEE-015C-4722-AD6C-BD5E6583FFB3}
+	EndGlobalSection
+EndGlobal
